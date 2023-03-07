@@ -9,6 +9,7 @@ from PIL import Image as PILImage
 from django.conf import settings
 import accounts.models
 from accounts.models import Account
+from rest_framework import status
 
 
 class ImageViewSet(viewsets.ModelViewSet):
