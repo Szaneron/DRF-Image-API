@@ -1,14 +1,7 @@
-from rest_framework import serializers
-from .models import Image
-from django.conf import settings
-from rest_framework import serializers
-from .models import Image
-import accounts.models
-from django.conf import settings
-from PIL import Image as PILImage
-from io import BytesIO
-from urllib.parse import urljoin
 from accounts.models import Account
+from rest_framework import serializers
+
+from .models import Image
 
 
 class ImageSerializer(serializers.ModelSerializer):

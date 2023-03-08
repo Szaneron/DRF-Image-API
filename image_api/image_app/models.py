@@ -1,13 +1,5 @@
-from django.core.files.base import ContentFile
-from django.db import models
 from django.contrib.auth.models import User
-from PIL import Image as PILImage
-from io import BytesIO
-from django.core.files.uploadedfile import InMemoryUploadedFile
-import sys
-from django.utils.html import format_html
-from django.utils.safestring import mark_safe
-from django.utils.html import escape
+from django.db import models
 
 
 class Image(models.Model):
