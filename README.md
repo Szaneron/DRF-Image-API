@@ -1,4 +1,4 @@
-# DRF---Image-API
+# DRF-Image-API
 API project using django rest framework
 
 ## Installation
